@@ -5,7 +5,7 @@ Version:	1.2
 Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	http://people.redhat.com/tcallawa/%{name}/%{name}-%{version}.tar.bz2
+Source0:	http://people.redhat.com/tcallawa/prtdiag/%{name}-%{version}.tar.bz2
 # Source0-md5:	08aa8468294aca3d3d622d8be70177ab
 URL:		http://people.redhat.com/tcallawa/prtdiag/
 Requires:	bash
@@ -37,5 +37,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGELOG README AUTHORS
 %attr(755,root,root) %{_sbindir}/*
-%config(noreplace) %verify(not md5 size mtime) %{_sysconfdir}/prtdiag.cfg
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/prtdiag.cfg
 %{_mandir}/man8/*
