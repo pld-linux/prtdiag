@@ -1,5 +1,5 @@
 Summary:	A tool that generates report of the hardware
-Summary(pl):	Narzêdzie do generowania raportu na temat urz±dzeñ komputera
+Summary(pl.UTF-8):   NarzÄ™dzie do generowania raportu na temat urzÄ…dzeÅ„ komputera
 Name:		prtdiag
 Version:	1.2
 Release:	1
@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Prtdiag is a bash script that generates a report that describes the
 state of the hardware on the running machine.
 
-%description -l pl
-Prtdiag jest skryptem napisanym w bashu, który generuje raport
-dotycz±cy stanu urz±dzeñ znajduj±cych siê w komputerze.
+%description -l pl.UTF-8
+Prtdiag jest skryptem napisanym w bashu, ktÃ³ry generuje raport
+dotyczÄ…cy stanu urzÄ…dzeÅ„ znajdujÄ…cych siÄ™ w komputerze.
 
 %prep
 %setup -q
