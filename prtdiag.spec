@@ -1,5 +1,5 @@
 Summary:	A tool that generates report of the hardware
-Summary(pl.UTF-8):   Narzędzie do generowania raportu na temat urządzeń komputera
+Summary(pl.UTF-8):	Narzędzie do generowania raportu na temat urządzeń komputera
 Name:		prtdiag
 Version:	1.2
 Release:	1
